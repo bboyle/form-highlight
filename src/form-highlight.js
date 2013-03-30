@@ -26,7 +26,11 @@
 
 
 	// highlight active ancestors when focus received
-	$( 'form a, input, select, textarea' ).live( 'focus', highlightActiveAncestors );
+	if ( $.isFunction( $.fn.on )) {
+		$( document ).on( 'focus', 'form a, input, select, textarea', highlightActiveAncestors );
+	} else {
+		$( 'form a, input, select, textarea' ).live( 'focus', highlightActiveAncestors );
+	}
 
 
 }( jQuery ));
