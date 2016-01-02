@@ -16,7 +16,6 @@
 
 # Libraries #
 #############
-lib/*
 node_modules/*
 
 # Logs and databases #
