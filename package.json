@@ -2,7 +2,7 @@
   "name": "form-highlight",
   "title": "Form highlight",
   "description": "Helper script for highlighting questions as a web form is filled out",
-  "version": "1.1.1-beta.1",
+  "version": "1.1.1",
   "homepage": "https://github.com/bboyle/form-highlight",
   "author": {
     "name": "Ben Boyle",
