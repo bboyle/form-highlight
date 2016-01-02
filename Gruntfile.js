@@ -34,7 +34,8 @@ module.exports = function( grunt ) {
 					urls: [
 						'http://localhost:8000/test/activeClass.html?jquery=1.4.4',
 						'http://localhost:8000/test/activeClass.html?jquery=1.7.2',
-						'http://localhost:8000/test/activeClass.html?jquery=1.9.1'
+						'http://localhost:8000/test/activeClass.html?jquery=1.9.1',
+						'http://localhost:8000/test/activeClass.html?jquery=2.1.4'
 					]
 				}
 			}
